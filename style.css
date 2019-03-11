@@ -289,6 +289,14 @@ hr{
   background-color: #8DA593;
   border-radius: 5px;
 }
+
+#jsBar6 {
+  width: 1%;
+  height: 30px;
+  background-color: #8DA593;
+  border-radius: 5px;
+}
+
 #js-bar{
   text-align: center;
 }

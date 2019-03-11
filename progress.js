@@ -4,16 +4,19 @@ function move() {
   var elem3 = document.getElementById("jsBar3"); 
   var elem4 = document.getElementById("jsBar4");  
   var elem5 = document.getElementById("jsBar5"); 
+  var elem6 = document.getElementById("jsBar6");
   var width1 = 10;
   var width2 = 10;
   var width3 = 10;
   var width4 = 10;
   var width5 = 10;
+  var width6 = 10;
   var id1 = setInterval(frame1, 30);
   var id2 = setInterval(frame2, 30);
   var id3 = setInterval(frame3, 30);
   var id4 = setInterval(frame4, 30);
   var id5 = setInterval(frame5, 30);
+  var id6 = setInterval(frame6, 30);
   function frame1() {   // javascript
     if (width1 >= 30) {
       clearInterval(id1);
@@ -24,7 +27,7 @@ function move() {
     }
   }
   function frame2() {
-    if (width2 >= 60) { // HTML
+    if (width2 >= 70) { // HTML
         clearInterval(id2);
       } else {
         width2++; 
@@ -57,6 +60,16 @@ function move() {
       width5++; 
       elem5.style.width = width5 + '%'; 
       elem5.innerHTML = width5 * 1  + '%';
+    }
+  }
+
+  function frame6() {   // github
+    if (width6 >= 60) {
+      clearInterval(id6);
+    } else {
+      width6++; 
+      elem6.style.width = width6 + '%'; 
+      elem6.innerHTML = width6 * 1  + '%';
     }
   }
 
