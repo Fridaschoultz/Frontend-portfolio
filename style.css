@@ -183,6 +183,35 @@ hr{
   background-attachment: fixed;
   z-index: -1;
 }
+.cont-2-inner{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.cont2-left{
+  width: 33.3%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cont2-middle{
+  width: 33.3%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cont2-right{
+  width: 33.3%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.pic-border{
+  border: 2px solid black;
+ width: 324px;
+ height: 217px;
+
+}
 
 
 .content3 {
@@ -362,4 +391,5 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
+
 
