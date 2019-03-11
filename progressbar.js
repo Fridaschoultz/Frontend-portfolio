@@ -1,4 +1,4 @@
-function move() {
+function progressBar() {
   var elem1 = document.getElementById("jsBar1");
   var elem2 = document.getElementById("jsBar2");  
   var elem3 = document.getElementById("jsBar3"); 
