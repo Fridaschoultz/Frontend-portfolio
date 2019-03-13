@@ -1,0 +1,126 @@
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    color: rgb(0, 1, 59);
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: rgb(0, 1, 59);
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: rgb(5, 39, 104);
+}
+
+a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border: 5px ridge rgb(155, 182, 197);
+    border-radius: 10px;
+}
+
+body {
+    text-align: center;
+    background-image: url(images/background24.jpg);
+    width: 960px;
+    margin: 20px auto;
+
+}
+
+.text-container {
+    background-color: rgb(223, 228, 231);
+    border: 10px ridge rgb(33, 83, 129);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.figcap {
+    font-family: 'Niramit', sans-serif;
+    color: black;
+}
+
+.sidfot p {
+    color: black;
+
+}
+
+iframe {
+    margin: 15px 15px 0px 0px;
+}
+
+/* Formulär*/
+
+.form input {
+    border: 2px ridge rgb(0, 1, 59);
+    font-size: 15px;
+    width: 100%;
+    line-height: 25px;
+    margin: 5px 5px 0px 0px;
+    border-radius: 10px;
+
+}
+
+.form {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: rgb(10, 60, 151);
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form fieldset {
+    border: 3px ridge rgb(0, 1, 59);
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+legend {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: rgb(0, 1, 59);
+    font-weight: bold;
+}
+
+.form textarea {
+    border: 2px ridge rgb(0, 1, 59);
+    font-size: 15px;
+    width: 99.5%;
+    border-radius: 10px;
+}
+
+.button {
+    color: white;
+    background-color: rgb(21, 76, 179);
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Navigeringsmeny*/
+
+.nav-container nav {
+    display: initial;
+    color: rgb(0, 1, 59);
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    border: 2em;
+    background-color: rgb(223, 228, 231);
+}
+
+.nav-container a:hover {
+    color: rgb(21, 76, 179);
+
+}
+
+.nav-container a {
+    text-decoration: none;
+}

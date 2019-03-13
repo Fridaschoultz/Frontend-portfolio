@@ -12,6 +12,11 @@ h3,h1,h2,h4,h5,p{
   font-family: 'Noto Serif', serif;
   font-size: 16px;
 }
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
 
 .quote{
   font-family: 'Srisakdi', cursive;
@@ -132,13 +137,18 @@ hr{
 .cont0-left{
   width: 30%;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .cont0-right{
   width: 70%;
   margin-left: 20px;
   margin-top: 30px;
 }
+.icons-con0-left{
+  margin-top: 50px;
+  padding: 10px;
+}
+
 .content1 {
   margin-top: 20px;
   padding: 60px;
@@ -206,6 +216,43 @@ hr{
   margin-top: 20px;
 }
 
+.cont-3-inner{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.cont3-left{
+  width: 30%;
+  margin-top: 40px;
+  padding-left:140px;
+}
+#js-bar-right{
+  width: 70%;
+  margin-top: 20px;
+}
+.javascript{
+  padding-top: 4px;
+}
+.html{
+  padding-top: 30px;
+}
+.css{
+  padding-top: 22px;
+}
+.github{
+  padding-top: 25px;
+}
+.photoshop{
+  padding-top: 25px;
+}
+.adobexd{
+  padding-top: 30px;
+}
+
+
+
+
 .pic-border{
   border: 2px solid black;
  width: 324px;
@@ -216,7 +263,7 @@ hr{
 
 .content3 {
   margin-top: 20px;
-  padding: 60px;
+  padding: 60px; 
   text-align: left;
   color: black;
   font-size: 20px;
@@ -277,10 +324,10 @@ hr{
 
 #myProgress {
   margin: auto;
-  width: 50%;
+  width: 100%;
   background-color: white;
-  border: 3px ridge black;
-  border-radius: 10px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 #jsBar1 {
@@ -353,11 +400,35 @@ hr{
   margin-right: 80px;
 }
 
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
+
+@media only screen and (max-width: 1244px) {
+  a {
+    font-size: 15px;
+  }
+  .link{
+    width: 70%;
+    margin-left: 0%;
+  }
 }
+
+@media only screen and (max-width: 1281px) {
+  .logo{
+    width: 100%;
+    font-family: 'Noto Serif', serif;
+    padding-left: 40px;
+    font-size: 24pt;
+    font-weight: bold;
+  }
+  .logo1{
+    width: 100%;
+    font-family: 'Noto Serif', serif;
+    padding-left: 40px;
+    font-size: 11pt;
+  
+  }
+}
+
+
 
 
 
