@@ -22,7 +22,6 @@ a {
   font-family: 'Srisakdi', cursive;
   font-size: 25px;
   width: 80%;
-  margin-left: 50px;
   margin-top: 30px;
 }
 
@@ -142,10 +141,10 @@ hr{
 .cont0-right{
   width: 70%;
   margin-left: 20px;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 .icons-con0-left{
-  margin-top: 50px;
+  margin: auto;
   padding: 10px;
 }
 
