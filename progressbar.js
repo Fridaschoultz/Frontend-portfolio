@@ -58,7 +58,7 @@ function progressBar() {
   }
 
   function frame3() {
-    if (width3 >= 40) { // CSS
+    if (width3 >= 55) { // CSS
       clearInterval(id3);
     } else {
       width3++;
@@ -68,7 +68,7 @@ function progressBar() {
   }
 
   function frame4() {
-    if (width4 >= 20) { //Photoshop
+    if (width4 >= 30) { //Photoshop
       clearInterval(id4);
     } else {
       width4++;
@@ -78,7 +78,7 @@ function progressBar() {
   }
 
   function frame5() {
-    if (width5 >= 30) { // Adobe Xd
+    if (width5 >= 40) { // Adobe Xd
       clearInterval(id5);
     } else {
       width5++;
