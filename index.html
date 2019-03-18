@@ -11,29 +11,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
 </head>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="progressbar.js"></script>
+<script src="animation.js"></script>
+<script src="nav-bar.js"></script>
 
-<body onload="progressBar()">
-    <div>
+<body>
+    <div id="top">
 
-        <nav>
-            <a class="menu2" href="./index.html">
-                <p class="logo">Frida Schoultz.</p>
-                <p class="logo1">Frontend developer student</p>
+        <nav class="nav" id="nav">
+            <a class="menu2" href="#top">
+                <p id="logo" class="logo">Frida Schoultz.</p>
+                <p id="logo1" class="logo1">Frontend developer student</p>
             </a>
             <div class="link">
-                <a class="menu" href="#con1">CV och Personligt brev</a>
-                <a class="menu" href="#con2">Projekt</a>
-                <a class="menu" href="#con3">Färdigheter och kunskap</a>
-                <a class="menu" href="#con4">Kontakta mig</a>
+                <a id="link_section_0" class="menu" href="#section_0">Profil</a>
+                <a id="link_section_1" class="menu" href="#section_1">CV och Personligt brev</a>
+                <a id="link_section_2" class="menu" href="#section_2">Projekt</a>
+                <a id="link_section_3" class="menu" href="#section_3">Färdigheter och kunskap</a>
+                <a id="link_section_4" class="menu" href="#section_4">Kontakta mig</a>
             </div>
         </nav>
         <img class="top-pic" src="images/pic9.jpg" alt="office">
     </div>
     <br>
-    <div class="content0">
+    <div id="section_0" class="content0">
         <h3>Profil</h3>
         <hr>
-        <div class="cont-0-inner">
+        <div id="section_0_inner" class="cont-0-inner">
             <div class="cont0-left">
                 <img src="images/pic-10.jpg" alt="Frida"> <br>
                 <div class="icons-con0-left">
@@ -42,39 +47,42 @@
                     <a class="icons-con0-left" target="_blank" href="https://github.com/Fridaschoultz"><i class="fa fa-github fa-lg"></i></a>
                     <a class="icons-con0-left" target="_blank" href="https://www.linkedin.com/in/frida-schoultz-683162172/"><i
                             class="fa fa-linkedin fa-lg"></i></a>
-                             <p class="quote"><q>If it`s still in your mind, <br>
-                                it is worth taking the risk.</q></p>
-                        <p class="quote">- Paulo Coelho </p>
+                    <p class="quote"><q>If it`s still in your mind, <br>
+                            it is worth taking the risk.</q></p>
+                    <p class="quote">- Paulo Coelho </p>
                 </div>
             </div>
             <div class="vertical-line1"></div>
             <div class="cont0-right">
                 <p>Hej och välkommen!</p> <br>
-                <p><p>
-                    Jag är en driven, lojal och glad frontend student med ett stort intresse för webbutveckling och att
-                    lära mig mer.</p> <br>
                 <p>
-                    För mig bottnar drivet i en nyfikenhet för dynamiken i Frontend och vad som är möjligt att göra
-                    inom området.</p> <br>
-                <p>Intresset för frontend väcktes efter att jag upptäckte mixen av programmeringen, designen
-                    och strukturen som sen bildar en helhet. För mig är det den dynamiken som gör frontend-utveckling
-                    ett sådant intressant område att få arbeta med.
-                </p> <br>
-                <p>Jag hoppas att jag har fångat ert intresse och tveka inte att höra av er </p> <br>
-                   <p> Med vänlig hälsning, <br>
-                    Frida Schoultz</p> <br>
+                    <p>
+                        Jag är en driven, lojal och glad frontend student med ett stort intresse för webbutveckling och
+                        att
+                        lära mig mer.</p> <br>
+                    <p>
+                        För mig bottnar drivet i en nyfikenhet för dynamiken i Frontend och vad som är möjligt att göra
+                        inom området.</p> <br>
+                    <p>Intresset för frontend väcktes efter att jag upptäckte mixen av programmeringen, designen
+                        och strukturen som sen bildar en helhet. För mig är det den dynamiken som gör
+                        frontend-utveckling
+                        ett sådant intressant område att få arbeta med.
+                    </p> <br>
+                    <p>Jag hoppas att jag har fångat ert intresse och tveka inte att höra av er </p> <br>
+                    <p> Med vänlig hälsning, <br>
+                        Frida Schoultz</p> <br>
                 </p>
             </div>
         </div>
     </div>
 
-    <div id="con1" class="content1">
+    <div id="section_1" class="content1">
         <h3>CV och Personligt brev</h3>
         <hr>
-
+        <div id="section_1_inner">   
 
         <br>
-        
+
         <p class="p-cv">Klicka <a class="p-cv" href="https://github.com/Fridaschoultz/Frontend-portfolio/raw/master/CV.zip"><b>här</b></a>
             för att ladda ner mitt CV. Jag skickar personligt brev på begäran.</p>
         <br>
@@ -193,14 +201,14 @@
         <p class="p-cv">Jag har också jobbat som stödperson åt människor med psykiska ohälsa som blivit omhändertagna
             enligt lagen om psykiatrisk tvångsvård. </p> <br>
 
-
+        </div>
 
     </div>
 
-    <div id="con3" class="content3">
+    <div id="section_3" id="con3" class="content3">
         <h3>Färdigheter och Kunskaper</h3>
         <hr>
-        <div class="cont-3-inner">
+        <div id="section_3_inner" class="cont-3-inner">
             <div class="cont3-left">
                 <p class="javascript">Javascript</p>
                 <p class="html">HTML</p>
@@ -255,10 +263,10 @@
 
 
 
-    <div id="con2" class="content2">
+    <div id="section_2" class="content2">
         <h3>Projekt</h3>
         <hr>
-        <div class="cont-2-inner">
+        <div id="section_2_inner" class="cont-2-inner">
             <div class="cont2-left">
                 <br>
                 <a target="_blank" href="https://fridaschoultz.github.io/Frontend-projekt-grupp/index.html"><img class="pic-border"
@@ -291,10 +299,10 @@
 
     </div>
 
-    <div id="con4" class="content4">
+    <div id="section_4" class="content4">
         <h3>Kontakta mig</h3>
         <hr>
-        <div class="cont-4-inner">
+        <div id="section_4_inner" class="cont-4-inner">
             <div class="cont4-left">
                 <form name="contact" method="POST" data-netlify="true">
                     <input class="form" type="text" name="name" placeholder="Namn" />
@@ -342,7 +350,7 @@
         </div>
     </div>
 
-    <script src="progressbar.js"></script>
+
 
 </body>
 
