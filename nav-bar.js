@@ -12,3 +12,10 @@ function myFunction() {
     document.getElementById("logo1").className = "logo1";
   }
 }
+
+/*--------------Glider ner när hemsidan laddas--------------- */
+
+/*$(document).ready(function () {
+  $("#nav").slideDown(1000);
+
+});*/
