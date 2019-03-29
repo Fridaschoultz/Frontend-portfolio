@@ -39,6 +39,8 @@ nav{
   position: fixed;
   z-index: 1;
   width: 100%;
+  /*top: -100px;*/ /*Ändrar så att hela nav baren är uppe, kan va 50 eller 70 osv*/
+  /*transition: top 1.3s; *//*Ändrar hur långt tid det tar för naven att åka ner*/
 }
 nav::after{
   content: "";

@@ -13,9 +13,12 @@ function myFunction() {
   }
 }
 
-/*--------------Glider ner när hemsidan laddas--------------- */
+/*--------------Nav-baren glider ner när hemsidan laddas--------------- */
 
-/*$(document).ready(function () {
-  $("#nav").slideDown(1000);
+/*window.onload = function() {scrollFunction()};
 
-});*/
+function scrollFunction() {
+  
+    document.getElementById("nav").style.top = "0";
+  
+} */
